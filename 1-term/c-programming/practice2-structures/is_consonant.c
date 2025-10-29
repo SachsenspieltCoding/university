@@ -7,7 +7,7 @@ int main() {
     printf("Is this letter a consonant?");
     scanf("%c", &input);
 
-    switch (toupper(input)) {   
+    switch (toupper(input)) {
         case 'A':
         case 'E':
         case 'I':
