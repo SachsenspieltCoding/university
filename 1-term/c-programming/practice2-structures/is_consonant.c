@@ -7,6 +7,11 @@ int main() {
     printf("Is this letter a consonant?");
     scanf("%c", &input);
 
+    if (!('A' < input && input < 'Z' || 'a' < input && input < 'z')) {
+        printf("%c is not a char", input);
+        return 0;
+    }
+
     switch (toupper(input)) {
         case 'A':
         case 'E':
